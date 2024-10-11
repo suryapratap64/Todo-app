@@ -10,9 +10,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //gtelementid used from get id from in givven html file
 //react.strictmode are used for finding any error in react is correct this 
 //catch many types of in error in rect
-ReactDOM.createRoot(document.getElementById("root")).render(
+//ReactDOM.createRoot(document.getElementById("root")).render(
+  ReactDOM.render(
   <React.StrictMode>
 
     <App />
-  </React.StrictMode>
-);
+  </React.StrictMode>,
+  document.getElementById('root'))
+;
