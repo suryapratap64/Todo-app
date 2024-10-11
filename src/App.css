@@ -1,0 +1,78 @@
+.col{
+    margin-left: 20px;
+}
+
+
+.input{
+    width: 50%;
+    margin: 30px 20px;
+    border-radius: 0;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 6%;
+    background-color: rgb(71, 82, 80);
+    border-radius: 4px;
+    
+    
+}
+.input:hover{
+    background-color: rgb(206, 218, 214);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.kg-row{
+   
+    margin: 30px 20px;
+}
+.kg-surya{
+    min-width: 90px;
+    
+
+}
+.kg-button{
+    margin: 30px 20px;
+    min-width: 90px;
+ 
+   
+}
+
+.todo-container{
+    background-color: rgba(76, 95, 89, 0.942);
+    
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.col-6{
+   
+    
+  border-radius: 5px;
+  padding-inline: 40px;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(134, 171, 165);
+
+} 
+.col-4{
+   
+    
+    border-radius: 5px;
+   
+    font-size: 24px;
+    text-align: left;
+      
+    background-color: rgb(134, 171, 165);
+  
+  }
+.conti{
+    
+    width: 1300px;
+}
+
+
